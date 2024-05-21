@@ -1,0 +1,52 @@
+/*gerneral  */
+a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #f00;
+}
+
+/* menu */
+
+/* logos */
+.logo {
+    width: 50px;
+    height: 50px;
+    /* object-fit: cover; */
+    /* border-radius: 50px; */
+}
+
+/* section cargos */
+.Cargos {
+    position: fixed;
+    justify-content: center;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.comisionista {
+    display: flex;
+    justify-self: start;
+}
+
+.Administrativo {
+    display: flex;
+    justify-self: end;
+}
+
+@media(min-width:634px) {
+    .logo {
+        width: 300px;
+        height: 150px;
+    }
+}
+@media(min-width:1400px){
+    .logo {
+        width: 300px;
+        height: 150px;
+    }
+}
